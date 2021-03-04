@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Image from 'next/image'
 import Button from '../components/button'
 import styles from '../styles/projects.module.css';
 
@@ -27,7 +26,7 @@ export default function  Project(props) {
                 </div>
             </div>
             <div className={styles.projectImg}>
-                <Image
+                <img
                     src={props.imgSrc}
                     height={300}
                     width={550}

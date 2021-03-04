@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -19,7 +18,7 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.aboutContainer}>
             <div className={styles.aboutImgProfileContainer}>
-              <Image
+              <img
                 src="/images/profile.jpg"
                 height={400}
                 width={400}

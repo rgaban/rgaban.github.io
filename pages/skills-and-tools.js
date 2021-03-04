@@ -1,6 +1,4 @@
-import Head from 'next/head'
 import Layout from '../components/layout'
-import Image from 'next/image'
 import Logo from '../components/logo'
 import Html5Logo from '../public/images/html5.svg'
 import Css3Logo from '../public/images/css3.svg'
@@ -15,8 +13,6 @@ import CLI from '../public/images/cmd-terminal.svg'
 import ResponsiveDesign from '../public/images/desktop-mobile.svg'
 import API from '../public/images/api-svgrepo-com.svg'
 import GitHub from '../public/images/github.svg'
-
-
 
 import styles from '../styles/skills-and-tools.module.css'
 
@@ -35,7 +31,7 @@ export default function SkillsAndTools() {
                     <Logo name="GitHub"><GitHub width={100} height={100} fill={'#000000'} /></Logo>
                     <Logo name="PostgreSQL"><PostgreSql width={100} height={100} fill={'#000000'} /></Logo>
                     <Logo name="Firebase"><FirebaseLogo width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="Supabase"><Image
+                    <Logo name="Supabase"><img
                         src='/images/supabase.svg'
                         height={100}
                         width={100}
