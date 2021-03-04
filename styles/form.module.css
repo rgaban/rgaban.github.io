@@ -1,0 +1,93 @@
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+.form input:hover::-webkit-input-placeholder, .form textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+.form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+.form input {
+    font-size: 0.875em;
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+
+    background: #ffffff;
+    outline: none;
+    color: #000000;
+
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.form input:hover {
+    background: #b4ab9b;
+    color: #ffffff;
+}
+
+.form textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: #ffffff;
+    outline: none;
+
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+
+    border: solid 1px #b4ab9b;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    resize: none;
+}
+
+.form textarea:hover {
+    background: #b4ab9b;
+    color: #ffffff;
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    outline:none;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #e19f59;
+    color: #ffffff;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.submit:hover {
+    color: #000000;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}

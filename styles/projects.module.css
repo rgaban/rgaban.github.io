@@ -1,0 +1,105 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    color: #cd8e4c;
+    text-transform: ;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.main h5 {
+    font-size: 30px;
+    line-height: 1.3;
+    letter-spacing: 0.02rem;
+    margin: 1rem 0 -0.5rem;
+    font-family: "Crimson Text", serif;
+}
+
+.main p {
+    font-size: 20px;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.projectImg {
+    margin: 20px 0;
+}
+
+.image {
+    width: 100%;
+    min-width: 100%;
+}
+
+.projectDescription {
+    max-width: 50%;
+}
+
+.containerProjectTech {
+    font-weight: 400;
+}
+
+.containerProjectTech > * {
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #878075;
+}
+
+
+.containerProjectBtn {
+    margin: 30px 0px;
+    width: 120%;
+}
+
+@media (max-width: 700px) {
+    .main {
+        padding: 0 2%;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+    }
+
+    .projectImg {
+        order: 1;
+    }
+
+    .projectDescription {
+        order: 2;
+        max-width: 100%;
+    }
+
+    .projectDescription h5 {
+        text-align: center;
+    }
+
+    .containerProjectBtn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .containerProjectBtn > * {
+        align-self: center;
+        width: 40%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .containerProjectTech {
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+.btn {
+    margin-right: 15px;
+    padding: 8px 20px;
+    text-decoration: none;
+    border: none;
+    background-color: #e19f59;
+    color: #ffffff;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.btn:hover {
+    font-weight: 800;
+    text-decoration: none;
+    color: #ae5a00;
+}

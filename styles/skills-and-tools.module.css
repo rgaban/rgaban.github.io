@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    color: #cd8e4c;
+  }
+
+  .main h2 {
+    text-align: center;
+  }
+
+  .main h4 {
+    font-size: 38px;
+    line-height: 1.3;
+    letter-spacing: 0.02rem;
+    margin: 1rem 0 -0.5rem;
+    font-family: "Crimson Text", serif;
+  }
+
+.skills {
+  margin-top: 50px;
+  margin: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill {
+  padding: 0;
+  margin: 1% 2%;
+  text-align: center;
+}
+
+.skill:hover {
+  background: #b4ab9b;
+}
+
+.skill p {
+  font-size: 16px;
+  margin: 0.1rem;
+}
+
+@media (max-width: 700px) {
+  .main {
+    text-align: center;
+  }
+
+  .skills {
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .skill {
+    align-self: center;
+    margin: 5px 15px;
+  }
+
+
+}
