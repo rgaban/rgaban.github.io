@@ -13,6 +13,8 @@ import CLI from '../public/images/cmd-terminal.svg'
 import ResponsiveDesign from '../public/images/desktop-mobile.svg'
 import API from '../public/images/api-svgrepo-com.svg'
 import GitHub from '../public/images/github.svg'
+import Heroku from '../public/images/heroku-bw.svg'
+import Redux from '../public/images/redux.svg'
 
 import styles from '../styles/skills-and-tools.module.css'
 
@@ -22,25 +24,25 @@ export default function SkillsAndTools() {
             <main className={styles.main}>
                 <h4 align="center">My Toolbox</h4>
                 <div className={styles.skills}>
-                    <Logo name="HTML5"><Html5Logo width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="CSS3"><Css3Logo width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="JavaScript"><JavaScript width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="React"><ReactLogo width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="NextJS"><Nextjs width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="Git"><Git width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="GitHub"><GitHub width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="PostgreSQL"><PostgreSql width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="Firebase"><FirebaseLogo width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="HTML5"><Html5Logo width="100%" height="100%" fill={'#000000'} /></Logo>
+                    <Logo name="CSS3"><Css3Logo fill={'#000000'} /></Logo>
+                    <Logo name="JavaScript"><JavaScript fill={'#000000'} /></Logo>
+                    <Logo name="React"><ReactLogo fill={'#000000'} /></Logo>
+                    <Logo name="NextJS"><Nextjs fill={'#000000'} /></Logo>
+                    <Logo name="Redux"><Redux fill={'#000000'} /></Logo>
+                    <Logo name="Git"><Git fill={'#000000'} /></Logo>
+                    <Logo name="GitHub"><GitHub fill={'#000000'} /></Logo>
+                    <Logo name="PostgreSQL"><PostgreSql fill={'#000000'} /></Logo>
+                    <Logo name="Firebase"><FirebaseLogo fill={'#000000'} /></Logo>
                     <Logo name="Supabase"><img
                         src='/images/supabase.svg'
-                        height={95}
-                        width={95}
                         alt='Supabase'
                     /></Logo>
-                    <Logo name="Responsive Design"><ResponsiveDesign width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="RESTful APIs"><API width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="VSCode"><VsCode width={95} height={95} fill={'#000000'} /></Logo>
-                    <Logo name="CLI"><CLI width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="Heroku"><Heroku fill={'#000000'} /></Logo>
+                    <Logo name="Responsive Design"><ResponsiveDesign fill={'#000000'} /></Logo>
+                    <Logo name="RESTful APIs"><API fill={'#000000'} /></Logo>
+                    <Logo name="VSCode"><VsCode fill={'#000000'} /></Logo>
+                    <Logo name="CLI"><CLI fill={'#000000'} /></Logo>
                 </div>
             </main>
         </Layout>

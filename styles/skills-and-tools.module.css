@@ -1,61 +1,64 @@
 .main {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
-
-.main h1 {
-    text-align: center;
-    font-family: 'Homemade Apple', cursive;
-    color: #cd8e4c;
-  }
-
-  .main h2 {
-    text-align: center;
-  }
 
   .main h4 {
     font-size: 38px;
     line-height: 1.3;
     letter-spacing: 0.02rem;
-    margin: 1rem 0 -0.5rem;
     font-family: "Crimson Text", serif;
   }
 
 .skills {
-  margin-top: 50px;
-  margin: 50px 100px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .skill {
-  padding: 0;
-  margin: 1% 2%;
-  text-align: center;
+  /* padding: 0; */
+  margin: 2% 2%;
+  /* text-align: center; */
+  width: 100px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
 }
 
 .skill:hover {
   background: #b4ab9b;
 }
 
+.skills > * {
+  align-self: flex-end;
+}
+
 .skill p {
   font-size: 16px;
   margin: 0.1rem;
+  text-align: center;
+  align-self: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .main {
     text-align: center;
   }
 
-  .skills {
-    width: 60%;
-    justify-content: space-between;
+  .skill {
+    margin: 15px 25px;
+    width: 50px;
+    margin: 10px 20px;
   }
 
-  .skill {
-    align-self: center;
-    margin: 5px 15px;
+  .skill p {
+    font-size: 13px;
+    /* width: 100%; */
   }
 }
