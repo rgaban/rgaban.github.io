@@ -20,16 +20,16 @@ export default function Home() {
             <div className={styles.aboutImgProfileContainer}>
               <img
                 src="/images/profile.jpg"
-                height={400}
-                width={400}
                 alt="Rose"
                 className={styles.imgProfile}
+                height="auto"
+                width="auto"
               />
             </div>
-
             <div className={styles.aboutDescriptionContainer}>
-              <h4>Customer advocate turned developer
-              🎉</h4>
+              <h3>Rose Gaban</h3>
+              <hr></hr>
+              <h6>Customer advocate turned developer 🎉</h6>
               <p>
                 I'm an aspiring self-taught Front-End Developer, with a background on customer advocacy. Throughout my experience championing and becoming the voice for customers, I became obssessed with product enhancement and providing hot fixes for times where product fell short. This then sparked my interest to further my knowledge on technology to heavily contribute to a project.
               </p>
@@ -50,7 +50,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </Link>
-            <Link href="https://github.com/rgaban">
+            <Link href="">
               <a target="_blank">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" />
               </a>

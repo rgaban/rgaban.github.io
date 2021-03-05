@@ -27,6 +27,15 @@ img {
   display: block;
 }
 
+h3 {
+  font-size: 38px;
+  line-height: 1.3;
+  letter-spacing: 0.rem;
+  margin: 1rem 0 -0.5rem;
+  font-family: "Crimson Text", serif;
+  color: #000000;
+}
+
 h4 {
   font-size: 38px;
   line-height: 1.3;
@@ -34,4 +43,18 @@ h4 {
   margin: 1rem 0 -0.5rem;
   font-family: "Crimson Text", serif;
   color: #32240f;
+}
+
+h6 {
+  font-size: 28px;
+  line-height: 1.3;
+  letter-spacing:0rem;
+  margin: 1rem 0 -0.5rem;
+  font-family: "Crimson Text", serif;
+  color: #000000;
+}
+
+hr {
+  margin: 0;
+  border-top: 2px solid #b96d40;
 }

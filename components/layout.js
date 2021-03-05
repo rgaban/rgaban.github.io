@@ -11,6 +11,7 @@ export default function Layout({ children, home }) {
             <Head>
                 <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Mada&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet"></link>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"

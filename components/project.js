@@ -28,8 +28,8 @@ export default function  Project(props) {
             <div className={styles.projectImg}>
                 <img
                     src={props.imgSrc}
-                    height={300}
-                    width={550}
+                    height="auto"
+                    width="auto"
                     alt={props.imgAlt}
                     className={styles.image}
                 />

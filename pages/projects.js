@@ -10,7 +10,8 @@ export default function Projects() {
         <Layout>
             <div className={styles.container}>
                 <main className={styles.main}>
-                    <h1>Things I've Built</h1>
+                    <h4 align="center">A Collection of Things I've Built</h4>
+                    <br></br>
 
                     <Project
                         name="DevKeep"

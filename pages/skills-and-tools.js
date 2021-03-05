@@ -20,7 +20,7 @@ export default function SkillsAndTools() {
     return (
         <Layout>
             <main className={styles.main}>
-                <h4>Here are my skills, tools, and technologies</h4>
+                <h4 align="center">My Toolbox</h4>
                 <div className={styles.skills}>
                     <Logo name="HTML5"><Html5Logo width={100} height={100} fill={'#000000'} /></Logo>
                     <Logo name="CSS3"><Css3Logo width={100} height={100} fill={'#000000'} /></Logo>
