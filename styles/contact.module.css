@@ -14,3 +14,9 @@
     line-height: 1.3rem;
     font-weight: 400;
 }
+
+@media (max-width: 599px) {
+    .heading {
+        max-width: 350px;
+    }
+}

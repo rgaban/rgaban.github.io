@@ -52,6 +52,8 @@
     }
 }
 
+
+
 @media (max-width: 700px) {
     .navigationItem {
         max-width: 130px;
@@ -59,5 +61,12 @@
 
     .navigationItem a {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 599px) {
+    .navigationItem a {
+        font-size: 22px;
+        margin: 20px 20px;
     }
 }
