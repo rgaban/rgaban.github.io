@@ -10,7 +10,8 @@ export default function Contact() {
                 <section>
                     <div className={styles.heading}>
                         <h4>Connect with Me</h4>
-                        <h6>Looking to collaborate or want to discuss my resume? Shoot me an email & let's build something amazing together!</h6>
+                        <p><h6>Looking to collaborate or want to look-over my resume?</h6></p>
+                        <p><h6>Shoot me an email & let's chat!</h6></p>
                     </div>
                     <MyForm />
                 </section>

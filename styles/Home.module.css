@@ -80,8 +80,11 @@
   .aboutDescriptionContainer {
     width: 80%;
   }
+  .main h3 {
+    text-align: center;
+  }
 
-  .main h4 {
+  .main h6 {
     text-align: center;
   }
 

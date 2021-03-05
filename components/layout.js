@@ -1,11 +1,23 @@
+import React, { useState } from 'react'
+
 import Head from 'next/head'
-import Link from 'next/link'
+import SideDrawer from './SideDrawer'
 import styles from './layout.module.css'
 import Toolbar from './toolbar'
 
 export const siteTitle = 'Rose Gaban: Front-End Developer'
 
-export default function Layout({ children, home }) {
+export default function Layout({ props, children, home }) {
+    const [sideDrawer, setSideDrawer] = useState(false);
+
+    const sideDrawerClosedHandler = () => {
+        setSideDrawer(false);
+    };
+
+    const sideDrawerToggleHandler = () => {
+        setSideDrawer(!sideDrawer);
+    }
+
     return (
         <div className={styles.container}>
             <Head>
@@ -27,7 +39,11 @@ export default function Layout({ children, home }) {
                 <meta name="twitter:card" content="summary_large_image" />
                 <title>{siteTitle}</title>
             </Head>
-            <Toolbar />
+            <Toolbar drawerToggleClicked={sideDrawerToggleHandler} />
+            <SideDrawer
+                open={sideDrawer}
+                closed={sideDrawerClosedHandler}
+            />
             <main className={styles.main}>{children}</main>
             <footer className={styles.footer}>
                 © Designed & Developed by Rose Gaban &lt;3

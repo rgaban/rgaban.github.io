@@ -17,6 +17,7 @@
     margin-left: 20px;
     text-transform: lowercase;
     outline: none;
+    font-family: 'Homemade Apple', cursive;
 }
 
 
@@ -27,7 +28,8 @@
     color: #000000;
 }
 
-@media (min-width: 500px) {
+
+@media (min-width: 599px) {
     .navigationItem {
         margin: 0;
         display: flex;
@@ -52,7 +54,7 @@
 
 @media (max-width: 700px) {
     .navigationItem {
-        max-width: 100px;
+        max-width: 130px;
     }
 
     .navigationItem a {
