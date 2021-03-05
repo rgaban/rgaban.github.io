@@ -22,25 +22,25 @@ export default function SkillsAndTools() {
             <main className={styles.main}>
                 <h4 align="center">My Toolbox</h4>
                 <div className={styles.skills}>
-                    <Logo name="HTML5"><Html5Logo width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="CSS3"><Css3Logo width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="JavaScript"><JavaScript width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="React"><ReactLogo width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="NextJS"><Nextjs width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="Git"><Git width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="GitHub"><GitHub width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="PostgreSQL"><PostgreSql width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="Firebase"><FirebaseLogo width={100} height={100} fill={'#000000'} /></Logo>
+                    <Logo name="HTML5"><Html5Logo width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="CSS3"><Css3Logo width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="JavaScript"><JavaScript width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="React"><ReactLogo width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="NextJS"><Nextjs width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="Git"><Git width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="GitHub"><GitHub width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="PostgreSQL"><PostgreSql width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="Firebase"><FirebaseLogo width={95} height={95} fill={'#000000'} /></Logo>
                     <Logo name="Supabase"><img
                         src='/images/supabase.svg'
-                        height={100}
-                        width={100}
+                        height={95}
+                        width={95}
                         alt='Supabase'
                     /></Logo>
-                    <Logo name="Responsive Design"><ResponsiveDesign width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="RESTful APIs"><API width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="VSCode"><VsCode width={100} height={100} fill={'#000000'} /></Logo>
-                    <Logo name="CLI"><CLI width={100} height={100} fill={'#000000'} /></Logo>
+                    <Logo name="Responsive Design"><ResponsiveDesign width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="RESTful APIs"><API width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="VSCode"><VsCode width={95} height={95} fill={'#000000'} /></Logo>
+                    <Logo name="CLI"><CLI width={95} height={95} fill={'#000000'} /></Logo>
                 </div>
             </main>
         </Layout>
