@@ -25,7 +25,7 @@ export default function Projects() {
 
                     <Project
                         name="PawPrint"
-                        description="Tracking your pet's activities has never been easier! PawPrint introduces a logging system to keep track of feeding time, treats, walkies, and everything in between.                        "
+                        description="Tracking your pet's activities has never been easier! PawPrint introduces a logging system to keep track of feeding time, treats, walkies, and everything in between. Made with ReactJS as a front-end framework, and Firebase for the backend."
                         techIcons={[faReact, faHtml5, faCss3Alt]}
                         demoHref="https://react-pawprint.herokuapp.com/"
                         repoHref="https://github.com/rgaban/pawprint"
@@ -35,12 +35,12 @@ export default function Projects() {
 
                     <Project
                         name="NASA Astronomy Picture of the Day"
-                        description="Tracking your pet's activities has never been easier! PawPrint introduces a logging system to keep track of feeding time, treats, walkies, and everything in between."
+                        description="A cute and simple React project that pulls NASA's Astronomy Picture of the Day that features astronomy and space science related images through NASA's API."
                         techIcons={[faReact, faHtml5, faCss3Alt]}
                         demoHref="https://react-nasa-apod.herokuapp.com/"
-                        repoHref="https://github.com/rgaban/pawprint"
+                        repoHref="https://github.com/rgaban/react-nasa-apodpawprint"
                         imgSrc="/images/nasa-apod.png"
-                        imgAlt="PawPrint"
+                        imgAlt="NASA APOD"
                     />
 
                 </main>
