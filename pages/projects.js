@@ -38,7 +38,7 @@ export default function Projects() {
                         description="A cute and simple React project that pulls NASA's Astronomy Picture of the Day that features astronomy and space science related images through NASA's API."
                         techIcons={[faReact, faHtml5, faCss3Alt]}
                         demoHref="https://react-nasa-apod.herokuapp.com/"
-                        repoHref="https://github.com/rgaban/react-nasa-apodpawprint"
+                        repoHref="https://github.com/rgaban/react-nasa-apod"
                         imgSrc="/images/nasa-apod.png"
                         imgAlt="NASA APOD"
                     />
