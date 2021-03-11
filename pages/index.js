@@ -50,7 +50,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
             </Link>
-            <Link href="">
+            <Link href="/images/rose_gaban_resume.pdf">
               <a target="_blank">
                 <FontAwesomeIcon icon={faFileAlt} size="2x" />
               </a>
